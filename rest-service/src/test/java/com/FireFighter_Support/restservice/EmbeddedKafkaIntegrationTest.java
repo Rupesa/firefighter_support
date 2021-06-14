@@ -17,7 +17,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.test.context.EmbeddedKafka;
 import org.springframework.test.annotation.DirtiesContext;
-
+/*
 @SpringBootTest
 @DirtiesContext                                                             //192.168.160.18:19092
 @EmbeddedKafka(partitions = 1  , brokerProperties = { "listeners=PLAINTEXT://192.168.160.18:19092", "port=19092" })
@@ -47,4 +47,4 @@ class EmbeddedKafkaIntegrationTest {
         assertThat(consumer.getPayload(), containsString("FF #1 : Heart Rate is 101.525187124"));
     }
 
-}
+}*/
