@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
     <Appenders>
-        <Socket name="Socket" host="192.168.160.87" port="33002">
+        <Socket name="Socket" host="192.168.160.87" port="33005">
             <JsonLayout compact="true" eventEol="true" />
         </Socket>
     </Appenders>
